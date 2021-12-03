@@ -51,8 +51,9 @@ export default function Index() {
       </Container>
       <VideoContainer>
         <HavamalVideo
-          videoURL="https://www.youtube.com/embed/w6Gy4ZGG5eg"
-          videoTitle="Nidhöggr"
+          videoId="w6Gy4ZGG5eg"
+          imgAltText="Nidhöggr"
+          iframeTitle="Nidhöggr"
         />
       </VideoContainer>
       

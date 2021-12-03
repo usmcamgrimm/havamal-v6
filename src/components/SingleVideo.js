@@ -1,4 +1,5 @@
 import React from 'react';
+import { LiteYoutubeEmbed } from 'react-lite-yt-embed'
 import { css } from '@emotion/react'
 import styled from '@emotion/styled'
 
@@ -20,15 +21,13 @@ const VideoContainer = styled.div`
   } 
 `;
 
-export default function HavamalVideo ({ videoURL, videoTitle, ...props }) {
+export default function HavamalVideo ({ videoId, imgAltText, iframeTitle }) {
   return (
     <VideoContainer>
-      <iframe
-        src={videoURL}
-        title={videoTitle}
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowFullScreen
+      <LiteYoutubeEmbed
+        id={videoId}
+        imgAltText={imgAltText}
+        iframeTitle={iframeTitle}
         css={css`
           position: absolute;
           top: 0;
