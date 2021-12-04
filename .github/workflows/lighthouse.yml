@@ -15,7 +15,7 @@ jobs:
           outputDirectory: ${{ github.workspace }}/tmp/artifacts
           urls: "https://www.havamalband.com,https://havamal-v6.netlify.app"
       - name: Upload Artifacts
-        uses: actions/upload-artifacts@master
+        uses: actions/upload-artifact@master
         with:
           name: Lighthouse report
           path: ${{ github.workspace }}/tmp/artifacts
