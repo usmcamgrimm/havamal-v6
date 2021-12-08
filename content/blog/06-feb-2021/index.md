@@ -1,6 +1,6 @@
 ---
 title: 06 February 2021
-date: 2020-02-06T17:28:42.002Z
+date: 2021-02-06T17:28:42.002Z
 author: Havamal
 thumbnail: 6feb2020.jpg
 ---
